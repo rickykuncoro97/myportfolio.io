@@ -1,4 +1,5 @@
 export const menukiri = {
+    img_user: "https://raw.githubusercontent.com/rickykuncoro97/myportfolio.io/main/Profile.jpg",
     nama: "Ricky Kuncoro",
     profesi: "Front End Developer",
     umur: "23",
