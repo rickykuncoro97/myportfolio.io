@@ -132,22 +132,22 @@ export const menukanan = {
     details: [
       {
         //gmbar bisa dimasukkin ke assets atau pake https jika dari luar
-        img: "https://lh5.googleusercontent.com/kAx4YMvZBUvCulfm4N_5YflUBm-zuIPJSr_9ZrIGqU-ai-xrulg5Yxw7x5fSHbMys7vG5iNVa3z_ik9ziT9X=w1366-h695-rw",
+        img: "https://raw.githubusercontent.com/rickykuncoro97/myportfolio.io/main/portfolio/petnpop.jpg",
         url: "https://market.petnpop.co.id"
       },
       {
         //gmbar bisa dimasukkin ke assets atau pake https jika dari luar
-        img: "https://lh5.googleusercontent.com/kAx4YMvZBUvCulfm4N_5YflUBm-zuIPJSr_9ZrIGqU-ai-xrulg5Yxw7x5fSHbMys7vG5iNVa3z_ik9ziT9X=w1366-h695-rw",
+        img: "https://raw.githubusercontent.com/rickykuncoro97/myportfolio.io/main/portfolio/petnpop.jpg",
         url: "https://market.petnpop.co.id"
       },
       {
         //gmbar bisa dimasukkin ke assets atau pake https jika dari luar
-        img: "https://lh5.googleusercontent.com/kAx4YMvZBUvCulfm4N_5YflUBm-zuIPJSr_9ZrIGqU-ai-xrulg5Yxw7x5fSHbMys7vG5iNVa3z_ik9ziT9X=w1366-h695-rw",
+        img: "https://raw.githubusercontent.com/rickykuncoro97/myportfolio.io/main/portfolio/petnpop.jpg",
         url: "https://market.petnpop.co.id"
       },
       {
         //gmbar bisa dimasukkin ke assets atau pake https jika dari luar
-        img: "https://lh5.googleusercontent.com/kAx4YMvZBUvCulfm4N_5YflUBm-zuIPJSr_9ZrIGqU-ai-xrulg5Yxw7x5fSHbMys7vG5iNVa3z_ik9ziT9X=w1366-h695-rw",
+        img: "https://raw.githubusercontent.com/rickykuncoro97/myportfolio.io/main/portfolio/petnpop.jpg",
         url: "https://market.petnpop.co.id"
       },
     ]
