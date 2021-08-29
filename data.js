@@ -77,6 +77,8 @@ export const menukiri = {
   cv: "https://google.com"
 }
 
+export const hp = "6287751132069"
+
 export const menukanan = {
   bannerperkenalan: {
     nama: "Saya Ricky Kuncoro",
@@ -96,23 +98,23 @@ export const menukanan = {
       deskripsikiri: "Mahasiswa",
       sampai: "2016 - 2020",
       deskripsikanan: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Amet dapibus nibh ut faucibus nunc, egestas id amet porttitor. Pulvinar quisque sed amet, nulla nunc. Eleifend sodales posuere fusce tempus etiam et pellentesque. Molestie risus enim neque eget dui"
-    },{
-        judulkiri: "SMK Kristen Petra",
-        judulkanan: "Jurusan Teknik Komputer & Jaringan",
-        deskripsikiri: "Siswa",
-        sampai: "2013 - 2016",
-        deskripsikanan: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Amet dapibus nibh ut faucibus nunc, egestas id amet porttitor. Pulvinar quisque sed amet, nulla nunc. Eleifend sodales posuere fusce tempus etiam et pellentesque. Molestie risus enim neque eget dui"
-      }]
+    }, {
+      judulkiri: "SMK Kristen Petra",
+      judulkanan: "Jurusan Teknik Komputer & Jaringan",
+      deskripsikiri: "Siswa",
+      sampai: "2013 - 2016",
+      deskripsikanan: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Amet dapibus nibh ut faucibus nunc, egestas id amet porttitor. Pulvinar quisque sed amet, nulla nunc. Eleifend sodales posuere fusce tempus etiam et pellentesque. Molestie risus enim neque eget dui"
+    }]
   },
   pekerjaan: {
     judul: "Pekerjaan",
     details: [{
-      judulkiri: "PT. DINAMIKA INTEGRA",
-      judulkanan: "Web Developer",
-      deskripsikiri: "Magang",
-      sampai: "Jul 2019 - Okt 2019",
-      deskripsikanan: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Amet dapibus nibh ut faucibus nunc, egestas id amet porttitor. Pulvinar quisque sed amet, nulla nunc. Eleifend sodales posuere fusce tempus etiam et pellentesque. Molestie risus enim neque eget dui"
-    },{
+        judulkiri: "PT. DINAMIKA INTEGRA",
+        judulkanan: "Web Developer",
+        deskripsikiri: "Magang",
+        sampai: "Jul 2019 - Okt 2019",
+        deskripsikanan: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Amet dapibus nibh ut faucibus nunc, egestas id amet porttitor. Pulvinar quisque sed amet, nulla nunc. Eleifend sodales posuere fusce tempus etiam et pellentesque. Molestie risus enim neque eget dui"
+      }, {
         judulkiri: "PT. L'VIORS JAYA SENTOSA",
         judulkanan: "Staff IT",
         deskripsikiri: "Fulltime",
@@ -125,12 +127,12 @@ export const menukanan = {
         deskripsikiri: "Fulltime",
         sampai: "Mei 2021 - Sekarang",
         deskripsikanan: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Amet dapibus nibh ut faucibus nunc, egestas id amet porttitor. Pulvinar quisque sed amet, nulla nunc. Eleifend sodales posuere fusce tempus etiam et pellentesque. Molestie risus enim neque eget dui"
-      }]
+      }
+    ]
   },
   portfolio: {
     judul: "Portfolio",
-    details: [
-      {
+    details: [{
         //gmbar bisa dimasukkin ke assets atau pake https jika dari luar
         img: "https://raw.githubusercontent.com/rickykuncoro97/myportfolio.io/main/portfolio/petnpop.jpg",
         url: "https://market.petnpop.co.id"
@@ -151,5 +153,34 @@ export const menukanan = {
         url: "https://market.petnpop.co.id"
       },
     ]
+  },
+  leaveus: {
+    judul: "Kirim Pesan kepada Saya",
+    model:{
+      nama: "",
+      hp: "",
+      msg: ""
+    },
+    form: {
+      full_name: {
+        value: "",
+        name: "Nama Lengkap Anda",
+        model: "nama",
+        type: "text"
+      },
+      phone: {
+        value: "",
+        name: "No HP Anda",
+        model: "hp",
+        type: "text"
+      },
+      message: {
+        value: "",
+        name: "Pesan Anda",
+        model: "msg",
+        type: "textarea"
+      },
+    },
+
   }
 }
